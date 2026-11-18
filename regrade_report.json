@@ -1,0 +1,202 @@
+[
+  {
+    "stage": "r1_canary8",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "fastapi_15023",
+    "patch_len": 1651,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "al/test_stream_data/test_tutorial002.py::test_openapi_schema[tutorial002_py310]\nERROR tests/test_tutorial/test_stream_data/test_tutorial002.py::test_openapi_schema[tutorial002_py310]\n2 failed, 4 passed, 1 error in 2.27s\n"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "fastapi_15588",
+    "patch_len": 510,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "e.py::test_server_sent_event_single_line_fields_reject_newlines[first\\r\\nsecond-event]\nFAILED tests/test_sse.py::test_server_sent_event_single_line_fields_reject_newlines[first\\r\\nsecond-id]\n6 failed, 18 passed in 2.89s\n"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "requests_7433",
+    "patch_len": 625,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 4,
+    "tail": "module>\n    from .models import Response\nE     File \"C:\\Users\\mqg1cob\\AppData\\Local\\Temp\\swegemma_win_requests_7433_w_6g1974\\workspace\\src\\requests\\models.py\", line 603\nE       ):\nE       ^\nE   SyntaxError: unmatched ')'"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "requests_7505",
+    "patch_len": 1387,
+    "old_resolved": false,
+    "new_resolved": true,
+    "exit_code": 0,
+    "tail": "apture-warnings.html\n34 passed, 307 deselected, 3 warnings in 14.57s\n\n[2026-11-18 07:14:15,958] WARNING in core: flasgger is not installed; serving the static landing page at / and skipping the Swagger UI and /spec.json."
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "rich_4006",
+    "patch_len": 848,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 124,
+    "tail": "Pytest timeout"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F3_Copilot_Sonnet",
+    "instance_id": "fastapi_14964",
+    "patch_len": 413,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "============\nFAILED tests/test_deprecated_responses.py::test_orjson_response_emits_deprecation_warning\nFAILED tests/test_deprecated_responses.py::test_ujson_response_emits_deprecation_warning\n2 failed, 7 passed in 2.73s\n"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F3_Copilot_Sonnet",
+    "instance_id": "fastapi_15023",
+    "patch_len": 1444,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "al/test_stream_data/test_tutorial002.py::test_openapi_schema[tutorial002_py310]\nERROR tests/test_tutorial/test_stream_data/test_tutorial002.py::test_openapi_schema[tutorial002_py310]\n2 failed, 4 passed, 1 error in 2.02s\n"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F3_Copilot_Sonnet",
+    "instance_id": "fastapi_15588",
+    "patch_len": 2572,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "e.py::test_server_sent_event_single_line_fields_reject_newlines[first\\r\\nsecond-event]\nFAILED tests/test_sse.py::test_server_sent_event_single_line_fields_reject_newlines[first\\r\\nsecond-id]\n6 failed, 18 passed in 2.82s\n"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F3_Copilot_Sonnet",
+    "instance_id": "requests_7433",
+    "patch_len": 559,
+    "old_resolved": false,
+    "new_resolved": true,
+    "exit_code": 0,
+    "tail": "apture-warnings.html\n34 passed, 305 deselected, 3 warnings in 14.68s\n\n[2026-11-18 07:17:52,537] WARNING in core: flasgger is not installed; serving the static landing page at / and skipping the Swagger UI and /spec.json."
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F3_Copilot_Sonnet",
+    "instance_id": "requests_7505",
+    "patch_len": 608,
+    "old_resolved": false,
+    "new_resolved": true,
+    "exit_code": 0,
+    "tail": "apture-warnings.html\n34 passed, 307 deselected, 3 warnings in 14.68s\n\n[2026-11-18 07:18:08,372] WARNING in core: flasgger is not installed; serving the static landing page at / and skipping the Swagger UI and /spec.json."
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F6_Apex_Unified",
+    "instance_id": "fastapi_14964",
+    "patch_len": 580,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "============\nFAILED tests/test_deprecated_responses.py::test_orjson_response_emits_deprecation_warning\nFAILED tests/test_deprecated_responses.py::test_ujson_response_emits_deprecation_warning\n2 failed, 7 passed in 2.34s\n"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F6_Apex_Unified",
+    "instance_id": "fastapi_15588",
+    "patch_len": 967,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "e.py::test_server_sent_event_single_line_fields_reject_newlines[first\\r\\nsecond-event]\nFAILED tests/test_sse.py::test_server_sent_event_single_line_fields_reject_newlines[first\\r\\nsecond-id]\n6 failed, 18 passed in 2.86s\n"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F6_Apex_Unified",
+    "instance_id": "requests_7433",
+    "patch_len": 650,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 124,
+    "tail": "Pytest timeout"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F6_Apex_Unified",
+    "instance_id": "requests_7505",
+    "patch_len": 471,
+    "old_resolved": false,
+    "new_resolved": true,
+    "exit_code": 0,
+    "tail": "apture-warnings.html\n34 passed, 307 deselected, 3 warnings in 14.71s\n\n[2026-11-18 07:21:37,529] WARNING in core: flasgger is not installed; serving the static landing page at / and skipping the Swagger UI and /spec.json."
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F6_Apex_Unified",
+    "instance_id": "rich_4006",
+    "patch_len": 484,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 124,
+    "tail": "Pytest timeout"
+  },
+  {
+    "stage": "r1_canary8",
+    "candidate": "F6_Apex_Unified",
+    "instance_id": "rich_4075",
+    "patch_len": 1318,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "- '!'\nE     + '\\n'\n=========================== short test summary info ===========================\nFAILED tests\\test_console.py::test_print_empty_with_end - AssertionError: ass...\n1 failed, 92 passed, 7 skipped in 0.77s\n"
+  },
+  {
+    "stage": "r1_val20",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "fastapi_15280",
+    "patch_len": 517,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 2,
+    "tail": " was never closed\n=========================== short test summary info ===========================\nERROR tests/test_vibe.py\n!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 1.87s\n"
+  },
+  {
+    "stage": "r1_val20",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "fastapi_15661",
+    "patch_len": 2318,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 2,
+    "tail": "lease'\n=========================== short test summary info ===========================\nERROR tests/test_prepare_release.py\n!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 1.67s\n"
+  },
+  {
+    "stage": "r1_val20",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "rich_4077",
+    "patch_len": 596,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "roxy.FileProxy object at 0x000002854EC37460>.isatty\n=========================== short test summary info ===========================\nFAILED tests\\test_file_proxy.py::test_isatty - assert False\n1 failed, 3 passed in 0.36s\n"
+  },
+  {
+    "stage": "r1_val20",
+    "candidate": "F1_ClaudeCode",
+    "instance_id": "rich_4079",
+    "patch_len": 711,
+    "old_resolved": false,
+    "new_resolved": false,
+    "exit_code": 1,
+    "tail": "ith_justification - Assert...\nFAILED tests\\test_markdown.py::test_partial_table - AssertionError: assert '\\...\nFAILED tests\\test_markdown.py::test_inline_code_in_table_cells - AssertionErr...\n6 failed, 2 passed in 0.52s\n"
+  }
+]
